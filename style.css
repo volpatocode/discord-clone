@@ -27,6 +27,10 @@ body{
 
 }
 
+.page__grid{
+    display: grid;
+}
+
 /* Header */
 
 .grid__header{
@@ -92,11 +96,14 @@ body{
     grid-template-rows:465px;
     grid-template-areas: "first-image" "main__content" "second-image";
     justify-content: center;
+    background-image: url("./images/background-clouds.svg");
+    background-position: center;
 }
 
 .first-image{
     grid-area: "first-image";
     align-self: end;
+    padding-bottom: 5px;
 }
 
 .first-image img{
@@ -106,6 +113,7 @@ body{
 .second-image{
     grid-area: "second-image";
     align-self: end;
+    padding-bottom: 5px;
 }
 
 .second-image img{
@@ -126,7 +134,6 @@ body{
     text-align: center;
     color: #f6f6f6;
     line-height:55px;
-
 }
 
 .main__content p{
@@ -177,11 +184,160 @@ body{
     box-shadow: 0px 2.5px 2.5px 2.5px rgba(0,0,0,0.25);
 }
 
-.first-section__background{
-
-}
+/* Second section */
 
 .second__section{
-    background-color:#fff;
-    height: 615px; 
+    background-color:white;
+    height: 680px; 
+}
+
+.second-section__grid{
+    display: grid;
+    grid-template-columns: 0.9fr 1.5fr 1fr 0.9fr;
+    grid-template-rows: 465px;
+    grid-template-areas:"first-margin-left" "first-left-content" "first-right-content" "first-margin-right";
+}
+
+.first-margin-left{
+    grid-area: "first-margin-left";
+}
+
+.first-margin-right{
+    grid-area: "first-margin-right";
+}
+
+.first-left-content{
+    grid-area: "first-left-content";
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.first-right-content{
+    grid-area: "first-right-content";
+    margin-top:80px;
+}
+
+.first-right-content h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #23272a;
+    line-height:55px;
+}
+
+.first-right-content p{
+    text-align: left;
+    color: #808080;
+    line-height:2rem;
+    margin-top: 35px;
+    font-size: 1.1;
+    font-weight: 400;
+    font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Third section */
+
+.third__section{
+    background-color: #f6f6f6;
+    height: 650px; 
+}
+
+.third-section__grid{
+    display: grid;
+    grid-template-columns: 0.9fr 1.5fr 1fr 0.9fr;
+    grid-template-rows: 465px;
+    grid-template-areas:"second-margin-left" "second-left-content" "second-right-content" "second-margin-right";
+}
+
+.second-margin-left{
+    grid-area: "second-margin-left";
+}
+
+.second-margin-right{
+    grid-area: "second-margin-right";
+}
+
+.second-left-content{
+    grid-area: "second-left-content";
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.second-right-content{
+    grid-area: "second-right-content";
+    margin-top:80px;
+}
+
+.second-left-content h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #23272a;
+    line-height:55px;
+}
+
+.second-left-content p{
+    text-align: left;
+    color: #808080;
+    line-height:2rem;
+    margin-top: 35px;
+    font-size: 1.1;
+    font-weight: 400;
+    font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Fourth section */
+
+.fourth__section{
+    background-color:white;
+    height: 650px; 
+}
+
+.fourth-section__grid{
+    display: grid;
+    grid-template-columns: 0.9fr 1.5fr 1fr 0.9fr;
+    grid-template-rows: 465px;
+    grid-template-areas:"third-margin-left" "third-left-content" "third-right-content" "third-margin-right";
+}
+
+.third-margin-left{
+    grid-area: "third-margin-left";
+}
+
+.third-margin-right{
+    grid-area: "third-margin-right";
+}
+
+.third-left-content{
+    grid-area: "third-left-content";
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+.third-right-content{
+    grid-area: "third-right-content";
+    margin-top:80px;
+}
+
+.third-right-content h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #23272a;
+    line-height:55px;
+}
+
+.third-right-content p{
+    text-align: left;
+    color: #808080;
+    line-height:2rem;
+    margin-top: 35px;
+    font-size: 1.1;
+    font-weight: 400;
+    font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
