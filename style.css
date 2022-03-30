@@ -60,6 +60,14 @@ body{
     font-size: 0.8rem;
 }
 
+.links .link__item:hover{
+    text-decoration: underline;
+}
+
+.links .link__item:link{
+    color: #fff;
+}
+
 .open-discord{
     grid-area: "open-discord";
     justify-content: flex-start;
@@ -155,12 +163,15 @@ body{
     margin-top: 25px;
 }
 
-.main-content__buttons .main__first-button{
+
+.main-content__buttons  .main__first-button{
     color: #23272a;
     background-color: #fff;
     border-radius: 50px;
     padding: 15px 28px 15px 28px;
     margin-right: 7.5px;
+    align-content: center;
+    align-items: center;
 }
 
 .main-content__buttons .main__first-button:hover{
@@ -174,8 +185,9 @@ body{
     color:#fff;
     background-color: #23272a;
     border-radius: 50px;
-    padding: 15px 28px 15px 28px;
+    padding: 20px 28px 20px 28px;
     margin-left: 7.5px;
+    align-self: center;
 }
 
 .main-content__buttons .main__second-button:hover{
@@ -230,12 +242,11 @@ body{
     text-align: left;
     color: #808080;
     line-height:2rem;
-    margin-top: 35px;
-    font-size: 1.1;
+    margin-top: 28px;
+    font-size: 1.1em;
     font-weight: 400;
     font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 /* Third section */
 
@@ -283,12 +294,11 @@ body{
     text-align: left;
     color: #808080;
     line-height:2rem;
-    margin-top: 35px;
-    font-size: 1.1;
+    margin-top: 28px;
+    font-size: 1.1em;
     font-weight: 400;
     font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 /* Fourth section */
 
@@ -336,8 +346,85 @@ body{
     text-align: left;
     color: #808080;
     line-height:2rem;
-    margin-top: 35px;
-    font-size: 1.1;
+    margin-top: 28px;
+    font-size: 1.1em;
     font-weight: 400;
     font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* Fifth section */
+
+.fifth__section{
+    background-color: #f6f6f6;
+    height: 1310px; 
+}
+
+.fifth-section__flex{
+    display: flex;
+    flex-direction: column;
+    max-width: 66vw;
+    margin: 0 auto;
+}
+
+.fifth-section__title h2{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 2.7rem;
+    color: #23272a;
+    line-height:55px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.fifth-section__title p{
+    text-align: center;
+    color: #808080;
+    line-height:2rem;
+    margin: 25px auto 0 auto;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family:'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 70%;
+}
+
+.last-img{
+    margin-left: 35px;
+}
+
+.fifth-section__button{
+    color: #fff;
+    background-color: #404eed;
+    border-radius: 50px;
+    padding: 15px 28px 15px 28px;
+    margin-right: 7.5px;
+    align-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.fifth-section__journey{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    margin-top:45px;
+}
+
+.fifth-section__journey h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    text-align: left;
+    color: #23272a;
+    line-height:55px;
+}
+
+.little-stars__img{
+    position: absolute;
+}
+
+/* Footer */
