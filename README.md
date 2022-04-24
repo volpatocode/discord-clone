@@ -11,3 +11,8 @@ This project, being one of my first "complex" projects, when it comes to just HT
 As the technologies used were only HTML and CSS, you can see the project right here on GitHub pages or clone the project and open its index.
 Pages: https://volpatocode.github.io/discord-clone/
 <br/><br/>
+## Technologies
+<ul>
+<li><img align="center" alt="code-HTML5" height="30" width="100" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></li>
+<li><img align="center" alt="code-CSS3" height="30" width="80" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></li>
+</ul>
